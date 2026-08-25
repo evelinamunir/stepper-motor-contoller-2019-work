@@ -1,9 +1,10 @@
 # Stepper Motor Controller
 
 Two-button stepper motor direction controller for Arduino (ATmega328).  
+
 Built as part of a 2019 GCSE Design & Technology project.
 
-Uploaded by request from the comments on [this video](https://www.youtube.com/shorts/_QWHReOaG14).
+_Uploaded by request from the comments on [this video](https://www.youtube.com/shorts/_QWHReOaG14)._
 ## Hardware
 
 - **Board:** Orangepip Kona328 (ATmega328-based, Arduino Uno compatible)
