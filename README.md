@@ -4,7 +4,8 @@ Two-button stepper motor direction controller for Arduino (ATmega328).
 
 Built as part of a 2019 GCSE Design & Technology project.
 
-_Uploaded by request from the comments on [this video](https://www.youtube.com/shorts/_QWHReOaG14)._
+**_Uploaded by request from the comments on [this video](https://www.youtube.com/shorts/_QWHReOaG14)._**
+
 ## Hardware
 
 - **Board:** Orangepip Kona328 (ATmega328-based, Arduino Uno compatible)
@@ -20,7 +21,7 @@ _Uploaded by request from the comments on [this video](https://www.youtube.com/s
 | Stepper coil C | D9 |
 | Stepper coil D | D11 |
 | Button 1 (CW) | D5 |
-| Button 2 (CCW) | D6 |
+| Button 2 (ACW) | D6 |
 
   
 Buttons are wired with INPUT_PULLUP - connect one leg to the pin, other leg to GND.
@@ -42,4 +43,4 @@ Buttons are wired with INPUT_PULLUP - connect one leg to the pin, other leg to G
 
 1. Open `stepper_control/stepper_control.ino` in Arduino IDE
 2. Select board: Arduino Uno (Kona328 is Uno-compatible)
-3. Upload and press either button to rotate clockwise/counter-clockwise
+3. Upload and press either button to rotate clockwise/anticlockwise
