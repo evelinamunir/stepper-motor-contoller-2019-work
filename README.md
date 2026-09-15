@@ -2,7 +2,7 @@
 
 Two-button stepper motor direction controller for Arduino (ATmega328).  
 
-Built as part of a 2019 GCSE Design & Technology project.
+Built as part of my 2019 GCSE Design & Technology project.
 
 **_Uploaded by request from the comments on [this video](https://www.youtube.com/shorts/_QWHReOaG14)._**
 
@@ -10,7 +10,8 @@ Built as part of a 2019 GCSE Design & Technology project.
 
 - **Board:** Orangepip Kona328 (ATmega328-based, Arduino Uno compatible)
 - **Motor:** 28BYJ-48 stepper motor (or equivalent, 2038 steps/revolution)
-- x2 push buttons and breadboard (if prototyping before using Arduino only)
+- **Buttons:** x2 push-to-make (/normally open) buttons
+- _**Breadboard**: if prototyping before using Arduino only_
 
 ## Wiring
 
