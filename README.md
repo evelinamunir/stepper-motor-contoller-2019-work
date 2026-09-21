@@ -11,22 +11,29 @@ Built as part of my 2019 GCSE Design & Technology project.
 - **Board:** Orangepip Kona328 (ATmega328-based, Arduino Uno compatible)
 - **Motor:** 28BYJ-48 stepper motor (or equivalent, 2038 steps/revolution)
 - **Buttons:** x2 push-to-make (/normally open) buttons
+- **Driver**: ULN2003 stepper motor driver board
 - _**Breadboard**: if prototyping before using Arduino only_
 
 ## Wiring
 
+_**Important:** Do not connect the stepper motor directly to the Arduino pins. The driver board must be used to prevent damaging the Arduino._
+
 | Component | Pin |
 |-----------|-----|
-| Stepper coil A | D8 |
-| Stepper coil B | D10 |
-| Stepper coil C | D9 |
-| Stepper coil D | D11 |
+| ULN2003 IN1 (for stepper coil A) | D8 |
+| ULN2003 IN2 (for stepper coil B) | D9 |
+| ULN2003 IN3 (for stepper coil C) | D10 |
+| ULN2003 IN4 (for stepper coil D) | D11 |
+| ULN2003 - (GND) | GND |
+| ULN2003 + (5V) | 5V |
 | Button 1 (CW) | D5 |
 | Button 2 (ACW) | D6 |
 
-  
-Buttons are wired with INPUT_PULLUP - connect one leg to the pin, other leg to GND.
 
+- **Motor Connection:** The stepper motor's 5-pin wire bundle plugs directly into the plastic socket on the ULN2003 driver board.
+- **Button Connection:** Buttons are wired with `INPUT_PULLUP` - connect one leg to the Arduino pin, and the other leg to GND.
+
+_**Please note:** The driver board is **not** shown in the basic setup schematics below, but must be used._
 
 ## Prototyping With Breadboard
 <img src="breadboard_setup.png" width="300"/>
