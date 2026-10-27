@@ -33,15 +33,10 @@ _**Important:** Do not connect the stepper motor directly to the Arduino pins. T
 - **Motor Connection:** The stepper motor's 5-pin wire bundle plugs directly into the plastic socket on the ULN2003 driver board.
 - **Button Connection:** Buttons are wired with `INPUT_PULLUP` - connect one leg to the Arduino pin, and the other leg to GND.
 
-_**Please note:** The driver board is **not** shown in the basic setup schematics below, but must be used._
+_**Please note:** The driver board is **not** shown in the basic breadboard setup schematic below, but must be used._
 
 ## Prototyping With Breadboard
 <img src="breadboard_setup.png" width="300"/>
-
-
-## Circuit Schematic
-<img src="arduino_circuit_setup.png" width="400"/>
-
 
 ## Dependencies
 
